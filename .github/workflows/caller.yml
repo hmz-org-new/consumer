@@ -5,7 +5,7 @@ jobs:
     permissions:
       contents: write
       id-token: write
-    uses: hmz-latest-new2/.github/.github/workflows/reusable.yml@main
+    uses: hmz-latest-new/.github/.github/workflows/reusable.yml@main
     with:
       aws_role: arn:aws:iam::739275466967:role/victim-deploy-role-poc
     secrets:
