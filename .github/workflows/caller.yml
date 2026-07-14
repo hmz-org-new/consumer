@@ -1,7 +1,5 @@
 name: caller
-on:
-  workflow_dispatch:
-  push:
+on: [workflow_dispatch, push]
 jobs:
   deploy:
     permissions:
